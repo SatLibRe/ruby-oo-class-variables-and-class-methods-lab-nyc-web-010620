@@ -1,3 +1,5 @@
+require "pry"
+
 class Song 
 
   attr_accessor :name, :artist, :genre
@@ -30,7 +32,7 @@ class Song
   
   def genre.count 
     genre_count = {}
-      @@genres.each do ||
+    binding.pry 
   end 
   
 end 
