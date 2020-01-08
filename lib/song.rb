@@ -30,7 +30,7 @@ class Song
     @@count += 1
   end 
   
-  def genre.count 
+  def genre_count
     genre_count = {}
     binding.pry 
   end 
